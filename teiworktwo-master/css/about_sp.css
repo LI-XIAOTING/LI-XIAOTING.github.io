@@ -1,0 +1,172 @@
+/*main*/
+.main{
+    height: 300px;
+    display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.main_text{
+    display: flex;
+    justify-content: center;
+}
+.main_text_contents{
+    display: flex;
+    margin-top: -20px;
+}
+.main_text_contents img{
+    width: 130px;
+    height: 55px;
+    margin-top: -38px;
+}
+.main_text_contents p{
+    margin-left: 12px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+/*pankuzuList*/
+.pankuzuList{
+    margin-top: 0;
+}
+
+/*h2*/
+.about_h2_contents{
+    display: flex;
+    padding-left: 10px;
+    margin-bottom: -10px;
+}
+.about_h2_contents img{
+    width: 90px;
+    height: 38px;
+    margin-top: 12px;
+}
+.about_h2_contents p{
+    margin-top: 36px;
+    margin-left: 12px;
+}
+
+/*mission*/
+.mission{
+    position: relative;
+    height: 230px;
+    padding-top: 20px;
+}
+.mission_text{
+    position: absolute;
+    letter-spacing: 4px;
+    font-size: 13px;
+    margin: 20px 0;
+    padding: 24px 20px; 
+    border: 1px solid #e6e6e6;
+}
+.mission_img{
+    position: absolute;
+    right: 0;
+    top: 94px;
+    z-index: -1000;
+    opacity: 0.6;
+}
+.mission_img img{
+    width: 80%;
+    float: right;
+}
+
+/*member*/
+.member{
+    margin-top: 60px;
+}
+.member_list{
+}
+.member_contents{
+    
+}
+.member_contents img{
+    width: 180px;
+    height: 180px;
+    margin-left: 80px;
+}
+.member_contents_text{
+    padding: 10px 20px 70px 20px;
+}
+.member_job{
+    margin-top: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-align: center;
+}
+.member_name{
+    margin-top: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-align: center;
+}
+.member_career{
+    margin-top: 30px;
+    font-size: 11px;
+    letter-spacing: 1px;
+    line-height: 18px;
+}
+.about_member01{
+    background: url(../images/about_member01_bg.png) no-repeat;
+    background-position: top 0 right 150px;
+}
+.about_member02{
+    background: url(../images/about_member02_bg.png) no-repeat;
+    background-position: top 0 right 150px;
+}
+.about_member03{
+    background: url(../images/about_member03_bg.png) no-repeat;
+    background-position: top 0 right 150px;
+}
+.about_member04{
+    background: url(../images/about_member04_bg.png) no-repeat;
+    background-position: top 0 right 150px;
+}
+.about_member05{
+    background: url(../images/about_member05_bg.png) no-repeat;
+    background-position: top 0 right 150px;
+}
+.about_member06{
+    background: url(../images/about_member06_bg.png) no-repeat;
+    background-position: top 0 right 150px;
+}
+.about_member07{
+    background: url(../images/about_member07_bg.png) no-repeat;
+    background-position: top 0 right 150px;
+}
+.about_member08{
+    background: url(../images/about_member08_bg.png) no-repeat;
+    background-position: top 0 right 150px;
+}
+
+/*company*/
+.company{
+    margin: 0 auto;
+    padding: 20px 20px;
+    font-size: 12px;
+    line-height: 40px;
+    text-align: left;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.colon{
+    padding: 0 5px;
+}
+
+/*access*/
+.access{
+    margin-bottom: 50px;
+}
+.access p{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+    font-size: 13px;
+}
+iframe{
+    width: 100%;
+    height: 400px;
+}

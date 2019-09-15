@@ -1,0 +1,163 @@
+/*main*/
+.main{
+    height: 300px;
+    display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.main_text{
+    display: flex;
+    justify-content: center;
+}
+.main_text_contents{
+    display: flex;
+    margin-top: -20px;
+}
+.main_text_contents img{
+    width: 130px;
+    height: 55px;
+    margin-top: -38px;
+}
+.main_text_contents p{
+    margin-left: 12px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+/*h2*/
+.about_h2_contents{
+    display: flex;
+}
+.about_h2_contents img{
+    width: 120px;
+    height: 50px;
+}
+.about_h2_contents p{
+    margin-top: 36px;
+    margin-left: 12px;
+}
+
+/*mission*/
+.mission{
+    position: relative;
+    height: 280px;
+    padding-top: 50px;
+}
+.mission_text{
+    position: absolute;
+    width: 600px;
+    border: 1px solid #c9c9c9;
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 2px 2px 20px rgba(102, 102, 102, 0.2);
+    padding: 40px 0 40px 90px;
+    letter-spacing: 6px;
+    font-size: 18px;
+}
+.mission_img{
+    position: absolute;
+    right: 0;
+    top: 80px;
+    z-index: -1000;
+}
+.mission_img img{
+    width: 650px;
+    box-shadow: 2px 2px 20px rgba(102, 102, 102, 0.2);
+}
+
+/*member*/
+.member{
+    margin-top: 60px;
+}
+.member_list{
+    display: flex;
+    justify-content: space-between;
+}
+.member_contents{
+    width: 48%;
+    display: flex;
+}
+.member_contents img{
+    width: 210px;
+    height: 210px;
+}
+.member_contents_text{
+    padding: 10px 20px 70px 30px;
+}
+.member_job{
+    margin-top: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.member_name{
+    margin-top: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+.member_career{
+    margin-top: 30px;
+    font-size: 11px;
+    letter-spacing: 1px;
+    line-height: 18px;
+}
+.about_member01{
+    background: url(../images/about_member01_bg.png) no-repeat;
+    background-position: top 0 right 150px;
+}
+.about_member02{
+    background: url(../images/about_member02_bg.png) no-repeat;
+    background-position: top 0 right 150px;
+}
+.about_member03{
+    background: url(../images/about_member03_bg.png) no-repeat;
+    background-position: top 0 right 150px;
+}
+.about_member04{
+    background: url(../images/about_member04_bg.png) no-repeat;
+    background-position: top 0 right 150px;
+}
+.about_member05{
+    background: url(../images/about_member05_bg.png) no-repeat;
+    background-position: top 0 right 150px;
+}
+.about_member06{
+    background: url(../images/about_member06_bg.png) no-repeat;
+    background-position: top 0 right 150px;
+}
+.about_member07{
+    background: url(../images/about_member07_bg.png) no-repeat;
+    background-position: top 0 right 150px;
+}
+.about_member08{
+    background: url(../images/about_member08_bg.png) no-repeat;
+    background-position: top 0 right 150px;
+}
+
+/*company*/
+.company{
+    padding: 20px 0;
+    font-size: 14px;
+    line-height: 40px;
+    text-align: left;
+    letter-spacing: 2px;
+    margin-bottom: 50px;
+}
+.colon{
+    padding: 0 20px;
+}
+
+/*access*/
+.access{
+    margin-bottom: 150px;
+}
+.access p{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+    font-size: 13px;
+}
+iframe{
+    width: 100%;
+    height: 400px;
+}

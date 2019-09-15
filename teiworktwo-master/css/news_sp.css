@@ -1,0 +1,99 @@
+/*main*/
+.main{
+    height: 300px;
+    display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.main_text{
+    display: flex;
+    justify-content: center;
+}
+.main_text_contents{
+    display: flex;
+    margin-top: -20px;
+}
+.main_text_contents img{
+    width: 130px;
+    height: 55px;
+    margin-top: -38px;
+}
+.main_text_contents p{
+    margin-left: 12px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+/*pankuzuList*/
+.pankuzuList{
+    margin-top: 0;
+}
+
+/*h2*/
+.about_h2_contents{
+    display: flex;
+    padding-left: 10px;
+    margin-bottom: -10px;
+}
+.about_h2_contents img{
+    width: 90px;
+    height: 38px;
+    margin-top: 12px;
+}
+.about_h2_contents p{
+    margin-top: 36px;
+    margin-left: 12px;
+}
+/*news*/
+.newsCard{
+    border-bottom: 1px solid #e6e6e6;
+    padding: 10px 16px;
+    list-style: none;
+    float: left;
+}
+.newsCard img{
+    float: left;
+    width: 30%;
+    margin-right: 20px;
+}
+.newsCard_subtext{
+    margin:8px;
+}
+.newsCard_update{
+    float: left;
+    font-size: 12px;
+    margin-right: 50px;
+    padding-top: 4px;
+    letter-spacing: 1px;
+    color: #888888;
+}
+.newsCard_category {
+    margin-top: -14px;
+    float: right;
+    padding: 4px 10px;
+    font-size: 12px;
+}
+.newsCard_category_event{
+    background-color: #E2EDFF;
+    color: #A0B2FF;
+}
+.newsCard_category_media{
+    background-color: #FFE2E2;
+    color: #FFA0A0;
+}
+.newsCard_category_news{
+    background-color: #FFF3E2;
+    color: #FFC8A0;
+}
+.newsCard_description{
+    font-size: 12px;
+    line-height: 20px;
+    margin-top: 40px;
+    margin-right: 10px;
+}
+.news_btn{
+    font-size: 12px;
+    clear: both;
+    border: none;
+    background-color: rgb(245, 250, 255);
+}

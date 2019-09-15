@@ -1,0 +1,237 @@
+h2 {
+    font-size: 14px;
+    letter-spacing: 4px;
+    text-align: center;
+    position: relative;
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+h2::before{
+    display: inline-block;
+    content: '';
+    width: 17px;
+    height: 15px;
+    margin-right: 12px;
+    margin-bottom: -4px;
+    background-image: url(../images/imdex_h2_icon.png); 
+    background-repeat:no-repeat;
+    background-size: contain;
+}
+
+/*main*/
+.main_flame{
+    border-top: 20px solid #FFF;
+    border-right: 1px solid #FFF;
+    border-bottom: 20px solid #FFF;
+    border-left: 20px solid #FFF;
+    width: 100%;
+    height: 100vh;
+}
+.main{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+.main::before{
+    content: '';
+    position: absolute;
+    top: -175px;
+    left: -50px;
+    border-top: 50px solid #fff;
+    border-right: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+    border-left: 50px solid transparent;
+    transform: rotate(135deg);
+}
+.background {  
+    position:absolute;
+    display:block;
+    top: 0;
+    left: 0;
+}
+.main_serviceLogo{
+    text-align: center;
+    font-size: 14px;
+    letter-spacing: 3px;
+    margin: auto;
+}
+.main_catch{
+    margin-top: 35%;
+}
+.main_serviceLogo img{
+    width: 60%;
+    margin-top: 20px;
+    margin-left: -10px;
+}
+.main_nav{
+    font-size: 12px;
+    position: relative;
+    letter-spacing: 2px;
+    line-height: 44px;
+    margin: 40px auto auto 55px;
+    list-style: disc;
+    z-index: 1;
+}
+.main_nav a{
+    background:linear-gradient(transparent 40%, #fff263);
+}
+.more{
+    text-align: center;
+    opacity: 0.3;
+    margin-left: -10px;
+}
+.main_more{
+    margin-top: 120px;
+    position: relative;
+    display: inline-block;
+}
+.main_more::after{
+    content: '';
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 11px;
+    top:20px;
+    border-top: 1px solid #2c2c2c;
+    border-left: 1px solid #2c2c2c;
+    transform: rotate(225deg);
+}
+.main_cat{
+    width:70%;
+    position: absolute;
+    top:170px;
+    right:50px;
+}
+
+/*goods*/
+.goods_conts{
+    position: relative;
+}
+
+.description{
+    padding:50px;
+    position: absolute;
+    margin-top: 200px;
+}
+.description_goods{
+    top: 20px;
+}
+.description_about{
+    top: 20px;
+}
+.description_logo{
+    text-align: center;
+    display: inline-block;
+}
+.description_logoImg{
+    display: block;
+    margin: 0 auto;
+    width: 60%;
+}
+.outline{
+    font-size: 12px;
+    line-height: 1.5rem;
+    letter-spacing: 1px;
+    margin: 20px 0;
+}
+.detail_btn{
+    width: 100%;
+    background:linear-gradient(transparent 90%, #fff799 80%);
+}
+.conts_mainImg{
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 370px;
+    margin-top: 20px;
+}
+/*goodsList*/
+.goods_goodsList_conts{
+    display: flex;
+    height: 80px;
+    border-bottom: 1px solid #e6e6e6;
+    padding: 0 50px;
+    margin-top: -1px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.goodsList_img{
+    width: 90px;
+    height: 70px;
+}
+.goods_name{
+    margin: auto;
+}
+.goodsList_logo01{
+    width: 120px;
+    height: 28px;
+}
+.goodsList_logo02{
+    width: 120px;
+    height: 40px;
+}
+.goodsList_logo03{
+    width: 125px;
+    height: 26px;
+}
+.goodsList_goodsname{
+    font-size: 10px;
+    margin-top: 2px;
+    color: #888888;
+}
+.goodsname_animoni{
+    margin-top: 8px;
+}
+
+/*news*/
+.newsCard{
+    border-bottom: 1px solid #e6e6e6;
+    padding: 10px 16px;
+    list-style: none;
+    float: left;
+}
+.newsCard img{
+    float: left;
+    width: 30%;
+    margin-right: 20px;
+}
+.newsCard_subtext{
+    margin:8px;
+}
+.newsCard_update{
+    float: left;
+    font-size: 12px;
+    margin-right: 50px;
+    padding-top: 4px;
+    letter-spacing: 1px;
+    color: #888888;
+}
+.newsCard_category {
+    float: right;
+    padding: 4px 10px;
+    font-size: 12px;
+}
+.newsCard_category_event{
+    background-color: #E2EDFF;
+    color: #A0B2FF;
+}
+.newsCard_category_media{
+    background-color: #FFE2E2;
+    color: #FFA0A0;
+}
+.newsCard_category_news{
+    background-color: #FFF3E2;
+    color: #FFC8A0;
+}
+.newsCard_description{
+    font-size: 12px;
+    line-height: 20px;
+    margin-top: 40px;
+    margin-right: 10px;
+}
+.news_btn{
+    font-size: 12px;
+    clear: both;
+    border: none;
+    background-color: rgb(245, 250, 255);
+}

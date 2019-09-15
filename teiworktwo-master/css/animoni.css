@@ -1,0 +1,120 @@
+/*main*/
+.main{
+    background-color: #F7FBFF;
+}
+.main_img{
+    display: flex;
+    justify-content: center;
+}
+.main_img img{
+    width: 80%;
+    height: 80%;
+}
+.main_text{
+    position: relative;
+}
+.main_text_contents{
+    position: absolute;
+    top:-210px;
+    right: 120px;
+}
+.main_text_contents img{
+    width: 60%;
+}
+.main_text_contents h1{
+    color: #2598FB;
+    font-size: 13px;
+    letter-spacing: 3px;
+    margin: 14px 0 30px 2px;
+}
+.main_text_contents p{
+    font-size: 11px;
+    letter-spacing: 3px;
+    line-height: 22px;
+    color: #7B7B7B;
+    border-left: 1px solid #bebebe;
+    padding-left: 20px;
+}
+
+/*overview*/
+.overview{
+    position: relative;
+    height: 500px;
+}
+.overview img{
+    position: absolute;
+    right: 0;
+    width: 55%;
+    z-index: -2;
+    top: -50px;
+}
+.overview_text{
+    position: absolute;
+    width: 50%;
+    border: 1px solid #c9c9c9;
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 2px 2px 20px rgba(102, 102, 102, 0.2);
+    padding: 5% 10% 5% 5%;
+    letter-spacing: 3px;
+    top:20px;
+}
+.overview_text_strong{
+    font-size: 18px;
+    font-weight: bold;
+}
+.overview_text_description{
+    font-size: 12px;
+    margin-top: 40px;
+    line-height: 22px;
+}
+
+/*feature*/
+.feature{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 90px;
+    width: 99%;
+}
+.feature_contents{
+    margin: 0 10px;
+}
+.feature_number_icon{
+    display: flex;
+}
+.feature_number{
+    font-size: 40px;
+    font-weight: bold;
+    color: #555555;
+    z-index: -200;
+}
+.feature_icon{
+    margin-top: -40px;
+    margin-left: -20px;
+    z-index: -300;
+}
+.feature_heading{
+    font-weight: bold;
+    letter-spacing: 3px;
+    line-height: 24px;
+    margin-top: -18px;
+}
+.feature_description{
+    width: 264px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 16px;
+    margin: 20px 0;
+    z-index: 1;
+}
+.feature_img img{
+    width: 264px;
+}
+.feature_imgList{
+    display: flex;
+    justify-content: space-between;
+    width: 97%;
+    margin: 0 10px 100px 10px;
+}
+.feature_imgList img{
+    width: 264px;
+}
